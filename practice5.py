@@ -14,13 +14,13 @@ Use insert() to add one new guest to the beginning of your list.
 Use insert() to add one new guest to the middle of your list.
 Use append() to add one new guest to the end of your list.
 """
-guest_list = ['Emili','Grex','Andreina']  #Guest list
+guest_list = ['Betty','Lisa','Ana']  #Guest list
 
 print(f'{guest_list[0].title()}, you are an amazing friend.')
 print(f'{guest_list[1].title()}. I love how lovely you are.')
 print(f'{guest_list[2].title()}. I want to see you again someday.')
 
-guest_list[2] = 'Ana'
+guest_list[2] = 'Juliana'
 
 print(f'now {guest_list[2].title()}. Is your new guest.')
 
