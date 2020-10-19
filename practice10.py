@@ -31,6 +31,7 @@ if("wonder woman" not in heroes_list and "batman".capitalize() in heroes_list):
 if("Batman" not in heroes_list or "Flash" in heroes_list):
     print("The faster man alive...")
 
+#Tests using the lower() function
 if(heroes_list[0] == "Spiderman"):
     print()
     print("heroes in lowercase : ")
