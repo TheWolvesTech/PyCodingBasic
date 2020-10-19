@@ -17,10 +17,10 @@ while(i<alien_quantity):
         print("player earned 5 points")  #if way
         i+=1
     elif(alien_color=='yellow'):
-        print("player earned 10 points")  #other new way
+        print("player earned 10 points")  #new way
         i+=1
     elif(alien_color=='red'):
-        print("player earned 15 points")  #other new way
+        print("player earned 15 points")  #new way
         i+=1
     else:
         print("player earned 0 points")  #else way
