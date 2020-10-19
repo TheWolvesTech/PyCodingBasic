@@ -17,7 +17,7 @@ Honda motorcycle.”
 
 """
 #3-1
-friends_list = ['dany','raul','emili','sara','william']  #we are define a list with friend names.
+friends_list = ['juan','ivan','emili','taylor','william']  #we are define a list with friend names.
 print(friends_list[0].title())  #printing with format.
 print(friends_list[1].title())  #printing with format.
 print(friends_list[2].title())  #printing with format.
