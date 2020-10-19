@@ -15,7 +15,11 @@ ing for each number. Your output should read "1st 2nd 3rd 4th 5th 6th
 numbers_list = [1,2,3,4,5,6,7,8,9]
 print("Ordinal numbers : ")
 for number in numbers_list:
-    if(number == 1 or number == 2 or number == 3):
+    if(number == 1):
         print(f"{number}st")
+    elif(number == 2):
+        print(f"{number}nd")
+    elif(number == 3):
+        print(f"{number}rd")
     elif(number == 4 or number == 5 or number == 6 or number == 7 or number == 8 or number == 9):
         print(f"{number}th")
