@@ -31,6 +31,8 @@ favorite_languages = {
 print("Extra coding.")
 print("Favorite languages.")
 for name, language in favorite_languages.items():
-    print("Name : "  + name.title())
-    print("Language :" + language.title())
-    print("Language :" + language.title()+"\n")
+    if(language=="cobol"):
+        print("Language :" + language.upper()+"\n")
+    else:
+        print("Language :" + language.title()+"\n")
+        print("Name : "  + name.title())
