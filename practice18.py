@@ -21,3 +21,16 @@ print(f"Alisson's favorite number is : {favorite_numbers['alisson']}")
 print(f"Luther's favorite number is : {favorite_numbers['luther']}")
 print(f"Ben's favorite number is : {favorite_numbers['ben']}")
 print(f"Diego's favorite number is : {favorite_numbers['diego']}")
+print()
+#Extra coding
+favorite_languages = {
+'Ana'   : 'python',
+'Walter': 'ruby',
+'Maria' : 'cobol'
+}
+print("Extra coding.")
+print("Favorite languages.")
+for name, language in favorite_languages.items():
+    print("Name : "  + name.title())
+    print("Language :" + language.title())
+    print()
