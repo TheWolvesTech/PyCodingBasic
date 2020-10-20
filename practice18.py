@@ -33,4 +33,4 @@ print("Favorite languages.")
 for name, language in favorite_languages.items():
     print("Name : "  + name.title())
     print("Language :" + language.title())
-    print()
+    print("Language :" + language.title()+"\n")
