@@ -16,7 +16,7 @@ class User():
         self.age = age
 
     # METHODS
-    def description(self):
+    def describe_user(self):
         print("User personal information.")
         print("Name : " + " "+self.first_name.title())
         print("Last Name : "+" "+self.last_name.title())
@@ -35,6 +35,6 @@ if __name__ == "__main__":
         l_name = input("Enter your last name : ")
         age = int(input("Enter your age : "))
         test_user = User(f_name, l_name, age)  # create an instance maybe.
-        test_user.description()
+        test_user.describe_user()
         test_user.greet_user()
         i += 1
