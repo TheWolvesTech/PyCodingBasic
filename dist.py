@@ -1,5 +1,6 @@
 """
 TRY IT YOURSELF
+Make a function that
 Calculate distance between two points.
 """
 import math
