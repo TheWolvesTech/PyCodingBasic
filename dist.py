@@ -3,13 +3,10 @@ TRY IT YOURSELF
 Make a function that
 Calculate distance between two points.
 """
-import math
-
-
 def dist(x1, x2, y1, y2):
     d1 = (x2-x1)**2
     d2 = (y2-y1)**2
-    d = math.sqrt(d1 + d2)
+    d = (d1 + d2)**(0.5)
     return d
 
 #entryPoint
